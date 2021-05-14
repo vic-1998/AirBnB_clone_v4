@@ -42,7 +42,7 @@
 					<h4>&nbsp;</h4>
 					<div>
 						<ul class="popover">
-                            {% for amty in amenities.values() %}
+                            {% for amty in amenities %}
                             <li>
                                 <input type="checkbox" data-id="{{ amty.id }}" data-name="{{ amty.name }}">{{ amty.name }}
                             </li>
